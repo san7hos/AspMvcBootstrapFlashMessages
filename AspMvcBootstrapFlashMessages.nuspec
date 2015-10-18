@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>
+      Initial package
+      - 4 extension methods added to Mvc Controller to create flash messages: .Flash*(message, params)
+      - 1 extension method added to HtmlHelper to show the messages: @Html.FlashMessages(dismissible)
+    </releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>AspNet Mvc Bootstrap Flash Messages FlashMessages</tags>
+  </metadata>
+</package>
