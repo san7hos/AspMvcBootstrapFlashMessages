@@ -55,5 +55,5 @@ Show Flash Messages using HtmlHelper extension method _FlashMessages(bool dismis
 ...
 ```
 
-[1]: https://msdn.microsoft.com/en-us/library/system.web.mvc.controllerbase.tempdata(v=vs.118).aspx
-[2]: http://getbootstrap.com/components/#alerts
+[1]: "https://msdn.microsoft.com/en-us/library/system.web.mvc.controllerbase.tempdata(v=vs.118).aspx"
+[2]: "http://getbootstrap.com/components/#alerts"
