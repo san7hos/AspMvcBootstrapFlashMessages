@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Asp.NET Mvc Bootstrap Flash Messages")]
-[assembly: AssemblyDescription("Asp.NET Mvc Bootstrap Flash Messages extends MVC Controllers with methods to easily create flash messages using TempData")]
+[assembly: AssemblyDescription("Asp.NET Mvc Bootstrap Flash Messages extends MVC Controllers with methods to create flash messages easily")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Santhos")]
 [assembly: AssemblyProduct("AspMvcBootstrapFlashMessages")]
