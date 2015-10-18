@@ -5,10 +5,10 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("AspMvcBootstrapFlashMessages")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Asp.NET Mvc Bootstrap Flash Messages")]
+[assembly: AssemblyDescription("Asp.NET Mvc Bootstrap Flash Messages extends MVC Controllers with methods to easily create flash messages using TempData")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Santhos")]
 [assembly: AssemblyProduct("AspMvcBootstrapFlashMessages")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
