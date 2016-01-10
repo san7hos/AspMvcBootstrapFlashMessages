@@ -1,5 +1,7 @@
 # Asp.NET Mvc Bootstrap Flash Messages
 
+[![NuGet version](https://badge.fury.io/nu/Santhos.Web.Mvc.BootstrapFlashMessages@2x.png)](https://badge.fury.io/nu/Santhos.Web.Mvc.BootstrapFlashMessages)
+
 Asp.NET Mvc Bootstrap Flash Messages extends MVC Controllers with methods to create flash messages easily.
 
 - The library uses [ControllerBase.TempData][1] to store the flash messages between the requests.
