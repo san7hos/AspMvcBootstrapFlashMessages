@@ -65,16 +65,18 @@
         /// <param name="messageArgs">The message arguments.</param>
         private static void Flash(Controller controller,  string severity, string message, params object[] messageArgs)
         {
+            var flash = new Flash(severity, message, messageArgs);
+
             object flashList;
             if (controller.TempData.TryGetValue(FlashTempDataKey, out flashList))
             {
-                ((FlashList)flashList).Add(new Flash(severity, string.Format(message, messageArgs)));
+                ((FlashList)flashList).Add(flash);
 
                 controller.TempData.Keep(FlashTempDataKey);
             }
             else
             {
-                controller.TempData[FlashTempDataKey] = new FlashList { new Flash(severity, message) };
+                controller.TempData[FlashTempDataKey] = new FlashList { flash };
             }
         }
     }

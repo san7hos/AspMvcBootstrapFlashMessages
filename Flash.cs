@@ -10,10 +10,11 @@
         /// </summary>
         /// <param name="severity">The severity.</param>
         /// <param name="message">The message.</param>
-        public Flash(string severity, string message)
+        /// <param name="messageArgs">The message arguments.</param>
+        public Flash(string severity, string message, params object[] messageArgs)
         {
             this.Severity = severity;
-            this.Message = message;
+            this.Message = string.Format(message, messageArgs);
         }
 
         /// <summary>
