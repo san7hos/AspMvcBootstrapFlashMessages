@@ -17,7 +17,8 @@
         public static MvcHtmlString FlashMessages(this HtmlHelper htmlHelper, bool dismissible = false)
         {
             var stringBuilder = new StringBuilder();
-            foreach (Flash flash in GetFlashListFromTempData(htmlHelper))
+            var flashList = GetFlashListFromTempData(htmlHelper);
+            foreach (Flash flash in flashList)
             {
                 var tagBuilder = new TagBuilder("div");
                 tagBuilder.MergeAttribute("role", "alert");
@@ -37,6 +38,8 @@
 
                 stringBuilder.AppendLine(tagBuilder.ToString());
             }
+
+            flashList.Clear();
 
             return MvcHtmlString.Create(stringBuilder.ToString());
         }
