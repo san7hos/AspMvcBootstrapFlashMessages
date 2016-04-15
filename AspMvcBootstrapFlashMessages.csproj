@@ -89,6 +89,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AspMvcBootstrapFlashMessages.nuspec" />
     <None Include="LICENSE" />
     <Content Include="packages.config" />
     <None Include="README.md" />
